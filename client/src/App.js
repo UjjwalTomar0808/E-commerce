@@ -14,7 +14,7 @@ import Cart from './features/cart/Cart';
 import CartPage from './pages/CartPage';
 import Checkout from './pages/Checkout';
 import ProductDetailPage from './pages/ProductDetailPage';
-import Protected from './features/auth/components/Protected';
+import Protected from './features/auth/components/protected';
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { selectLoggedInUser } from './features/auth/authSlice';
